@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 40px auto;
+    display: flex;      
+}
+
+.cont1 {
+    background-color: #7c40eb;
+    color: #fff;
+    width: 380px;
+    padding: 3rem;
+}
+
+.container .foto-pessoal{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 1rem;
+}
+
+.title h1 {
+    margin-top: 1rem;
+    font-size: 1.7em;
+}
+
+.title p {
+    padding-top: 0.5rem;
+    font-style: italic;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.8rem auto;
+    justify-content: space-between;
+}
+
+.redes-sociais img {
+    width: 30px;    
+    
+    border-radius: 10px;
+}
+
+
+.menus {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menus p{
+   font-size: 1.2rem;
+}
+
+.cont2{
+   
+   background-color: #f0e6e6;
+   padding: 1rem;
+   color: rgb(59, 58, 58);
+   display: flex;
+   flex-direction: column;
+   
+}
+
+
+.sobre-mim h1 {
+    font-size: 1.7em;
+    margin: 40px;
+    color: rgb(144, 48, 168);  
+}
+
+.texto {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.info-pessoais {
+    height: 200px;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15px;
+    justify-content: space-around;
+}
+
+span {
+    font-weight: 600;
+}
+
